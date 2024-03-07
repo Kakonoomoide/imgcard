@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Showcase</title>
+    <!-- Menghubungkan file eksternal CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Menghubungkan ke Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Menghubungkan ikon situs web -->
+    <link rel="icon" href="./img/icon.png" type="image/png" />
+
+
+    <style>
+      /* Internal CSS untuk styling */
+      .IntCard1 {
+        font-family: "Montserrat";
+      }
+      .IntCard1 p {
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .IntCard1 h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Container utama untuk menampilkan gambar -->
+    <div class="BGimg">
+
+      <!-- Latar belakang blur -->
+      <div class="blurry-bg"></div>
+      
+      <!-- Container untuk menampilkan konten -->
+      <div class="container">
+
+        <!-- Card pertama: Langit Senja -->
+        <div class="card">
+          <div class="IntCard1">
+            <h1>Langit Senja</h1>
+            <img src="./img/sunset.png" alt="Langit Senja" />
+            <p>
+              Di kala senja merangkak perlahan,<br />
+              Langit terpapar dalam warna-warna khayal,<br />
+              Cahaya jingga melukis horizon,<br />
+              Mengundang hati terpesona dalam kerinduan<br />
+            </p>
+          </div>
+        </div>
+        
+        <!-- Card kedua: Hutan Tropis -->
+        <div class="card">
+          <!-- inline CSS untuk styling-->
+          <div class="IntCard2" style="text-align: center">
+            <!-- Judul dengan ukuran font yang berbeda -->
+            <h1 style="font-size: 20px">Hutan Tropis</h1>
+            <!-- Gambar dengan properti styling -->
+            <img
+              src="./img/hutantropis.png"
+              alt="Hutan Tropis"
+              style="max-width: 100%; border-radius: 8px; margin-bottom: 10px"
+            />
+            <!-- Deskripsi dengan ukuran font yang berbeda -->
+            <p style="font-size: 15px; margin-bottom: 10px">
+              Dalam hutan tropis, rindu dan duka bersatu<br />
+              Gemuruh sunyi, menari dalam kesepian<br />
+              Daun-daun berguguran, menangisi perpisahan<br />
+              Hutan tropis sedih, merindukan sinar harapan
+            </p>
+          </div>
+        </div>
+
+        <!-- Card ketiga: Bunga Myosotis -->
+        <div class="card">
+          <div class="IntCard3">
+            <h1>Bunga Myosotis</h1>
+            <img src="./img/flower.png" alt="Bunga Myosotis" />
+            <p>
+              Bunga Myosotis, dalam pelukan senja yang suram<br />
+              Biru yang pucat, mencerminkan kesedihan yang dalam<br />
+              Di bawah cahaya redup, kelopaknya layu dengan lara<br />
+              Suasana sedih, meresap dalam setiap tangisan bunga<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
